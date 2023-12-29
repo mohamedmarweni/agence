@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Open Sans', sans-serif;;
+}
+/* header */
+header{
+  background: #444;
+  display: flex;
+  line-height: 4em;
+  
+}
+
+header h2 a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px;
+}
+header nav ul{
+  list-style: none;
+  float: right;
+
+}
+header nav ul li{
+  float: right;
+  display: inline-block;
+}
+header nav{
+  float: right;
+}
+nav{
+  padding-left: 800px;
+  
+}
+header nav ul li a:hover{
+  color: rgba(235, 220, 14, 0.753);
+}
+
+
+
+
+
+
