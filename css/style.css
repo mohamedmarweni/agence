@@ -4,9 +4,17 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+body{
+  background-color: #e0dbdb;
+}
 strong{
   color:rgba(235, 220, 14, 0.753) ;
   font-weight: 400;
+}
+title{
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* header */
@@ -77,4 +85,39 @@ header ul li {
   font-weight: 300;
   letter-spacing: 1px;
 line-height: 2rem;
+}
+/* offer */
+.offer{
+  padding: 10rem 1rem;
+}
+.container{
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+
+}
+.offer-list{
+  display: flex;
+  list-style: none;
+  flex-flow: row nowrap;
+}
+.offer-element{
+  margin: 2rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 23px;
+  flex: 1;
+}
+.offer-element-img{
+  width: 100%;
+}
+.offer-element-text{
+  padding: 2rem;
+  text-align: center;
+}
+.offer-separtor{
+  height: 1px;
+  width:50px;
+  background: #333;
+  margin: 1rem auto;
 }
