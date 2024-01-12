@@ -20,6 +20,9 @@ title{
   background: #333;
   color: white;
 }
+em{
+  color: #555;
+}
 
 /* header */
 header {
@@ -150,4 +153,31 @@ line-height: 2rem;
 .who-content-text p{
 font-size: 1.3rem;
 line-height: 1.8rem;
+}
+.testimoniels{
+  padding: 5rem 1rem;
+}
+.testimonels-element{
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+
+}
+.testimonels-element-text{
+  padding: 0 2rem;
+}
+.testimonels-element-profil img{
+  width: 50px;
+  border-radius: 50px;
+}
+.testimonels-element-profil p{
+font-weight: 700;
+margin-bottom: 0.5rem;
+color: #333;
 }
